@@ -42,11 +42,11 @@ class Navbar extends Component {
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <Link to="/series/drama" className='dropdown-item'>Drama</Link>
-            <Link to="series/sitcom" className='dropdown-item'>Sitcom</Link>
-            <Link to="series/animated" className='dropdown-item'>Animated</Link>
-            <Link to="series/investigation" className='dropdown-item'>Investigation</Link>
-            <Link to="series/sci-fi" className='dropdown-item'>Sci-Fi</Link>
-            <Link to="series/documentaries" className='dropdown-item'>Documentaries</Link>
+            <Link to="/series/sitcom" className='dropdown-item'>Sitcom</Link>
+            <Link to="/series/animated" className='dropdown-item'>Animated</Link>
+            <Link to="/series/investigation" className='dropdown-item'>Investigation</Link>
+            <Link to="/series/sci-fi" className='dropdown-item'>Sci-Fi</Link>
+            <Link to="/series/documentaries" className='dropdown-item'>Documentaries</Link>
         </div>
       </li>
     </ul>

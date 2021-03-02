@@ -12,11 +12,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path="/">
+        <Route path="/home">
         </Route>
-
-        <Route path="/movie">
-
+        <Route path="/series">
+        </Route>
+        <Route path="/movies">
         </Route>
         </Switch>
      </Router>
